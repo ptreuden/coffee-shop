@@ -1,0 +1,90 @@
+.email-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 40px 0 25px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #fffffc;
+}
+
+.input-container {
+  padding: 5px;
+  width: 370px;
+  margin: 10px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-container h3 {
+  font-size: 22px;
+}
+
+.email-container input {
+  width: 225px;
+  padding: 15px 15px 15px 10px;
+  color: #000814;
+  border-radius: 2px;
+  border: 2px solid #000814;
+  font-size: 16px;
+  outline: none;
+  transition: all 100ms linear;
+}
+
+.email-container input:focus {
+  border: 2px solid rgba(255, 196, 0, 0.7);
+}
+
+.email-container button {
+  font-family: 'Lato', sans-serif;
+  padding: 4px 30px;
+  border-radius: 25px;
+  background-color: rgba(255, 196, 0, 1);
+  border: none;
+  cursor: pointer;
+  transition: all 200ms linear;
+  width: 92px;
+  height: 52px;
+}
+
+.email-container button:hover {
+  background-color: rgba(255, 196, 0, 0.7);
+}
+
+@media only screen and (max-width: 600px) {
+  .email-container {
+    width: 370px;
+    padding: 30px 0;
+  }
+  .email-container p {
+    font-size: 14px;
+    margin: 12px 0;
+  }
+  .input-container {
+    width: 340px;
+  }
+  .email-container input {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .email-container {
+    width: 100%;
+  }
+  .email-paragraph {
+    width: 230px;
+    margin: 0 auto;
+  }
+  .input-container {
+    padding: 5px;
+    width: 99%;
+    margin: 10px 0;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+  }
+  .email-container button {
+    margin: 10px 0 0;
+  }
+}

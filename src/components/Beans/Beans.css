@@ -1,0 +1,206 @@
+.beans-container {
+  margin: 50px auto 0;
+  padding: 50px 0;
+}
+
+.beans-h2-image {
+  font-family: 'Lato', sans-serif;
+  max-width: 930px;
+  padding: 0 5px 0 25px;
+  margin: 5px auto;
+  display: flex;
+  position: relative;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.beans-h2 {
+  padding: 5px;
+  max-width: 450px;
+  display: flex;
+  align-items: flex-start;
+  transition: all 400ms linear;
+}
+
+.beans-h2-showing {
+  opacity: 1;
+  margin-left: 0px;
+}
+
+.beans-h2-hidden {
+  opacity: 0;
+  margin-left: -30px;
+}
+
+.beans-image {
+  padding: 5px;
+  margin: 40px 0 0;
+  transition: all 400ms linear;
+}
+
+.beans-image-showing {
+  opacity: 1;
+}
+
+.beans-image-hidden {
+  opacity: 0;
+}
+
+.beans-image img {
+  max-width: 420px;
+}
+
+.beans-container h2 {
+  color: #000814;
+  font-size: 70px;
+  margin: 0 0 15px;
+  line-height: 1.4em;
+  border-left: 8px solid rgba(255, 195, 0, 1);
+  padding: 0 0 10px 25px;
+}
+
+.beans-subtext-upper-buffer {
+  height: 5px;
+  width: 40%;
+  margin: 65px auto 0;
+  max-width: 350px;
+  border-bottom: 1px solid rgba(255, 195, 0, 1);
+  transition: all 500ms linear;
+}
+
+.beans-upper-buffer-showing {
+  opacity: 1;
+}
+
+.beans-upper-buffer-hidden {
+  opacity: 0;
+}
+
+.beans-subtext-lower-buffer {
+  height: 5px;
+  width: 60%;
+  margin: 0 auto 25px;
+  max-width: 550px;
+  border-top: 1px solid rgba(255, 195, 0, 1);
+}
+
+.beans-subtext {
+  margin: 0 auto;
+  max-width: 750px;
+  width: 80%;
+  padding: 5px;
+  text-align: center;
+  color: #000814;
+  transition: all 400ms linear;
+  font-family: 'Lato', sans-serif;
+}
+
+.beans-subtext h3 {
+  font-size: 22px;
+}
+
+.beans-subtext-showing {
+  opacity: 1;
+}
+
+.beans-subtext-hidden {
+  opacity: 0;
+}
+
+.beans-subtext p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .beans-container {
+    margin: 25px auto;
+  }
+  .beans-h2-image {
+    justify-content: center;
+  }
+  .beans-h2 {
+    max-width: 350px;
+  }
+  .beans-container h2 {
+    font-size: 55px;
+    line-height: 1.2em;
+    padding: 0 0 10px 20px;
+  }
+  .beans-image {
+    padding: 5px;
+    margin: 30px 0 0;
+  }
+  .beans-image img {
+    max-width: 325px;
+    padding: 0 0 0 25px;
+  }
+  .beans-subtext {
+    width: 85%;
+  }
+  .beans-subtext p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .beans-container {
+    margin: 10px auto;
+  }
+  .beans-h2-image {
+    justify-content: center;
+  }
+  .beans-h2 {
+    max-width: 275px;
+  }
+  .beans-container h2 {
+    font-size: 40px;
+    line-height: 1.2em;
+    padding: 0 0 5px 20px;
+  }
+  .beans-image {
+    padding: 5px;
+    margin: 20px 0 0;
+  }
+  .beans-image img {
+    max-width: 230px;
+    padding: 0;
+  }
+  .beans-subtext-upper-buffer {
+    margin: 45px auto 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .beans-container {
+    margin: 10px auto;
+    padding: 30px 0;
+  }
+  .beans-h2-image {
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 5px;
+  }
+  .beans-h2 {
+    max-width: 300px;
+  }
+  .beans-container h2 {
+    font-size: 40px;
+    line-height: 1.2em;
+    padding: 0 30px 5px 20px;
+  }
+  .beans-image {
+    padding: 5px;
+    margin: 0;
+  }
+  .beans-image img {
+    max-width: 230px;
+    padding: 0;
+  }
+  .beans-subtext-upper-buffer {
+    margin: 30px auto 0;
+  }
+  .beans-subtext p {
+    font-size: 16px;
+  }
+}

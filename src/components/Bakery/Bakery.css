@@ -1,0 +1,294 @@
+.bakery-container {
+  background-color: #000814;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.bakery-header {
+  padding: 5px;
+  margin: 25px auto;
+  width: 600px;
+  text-align: center;
+  line-height: 1.4em;
+}
+
+.bakery-header h2 {
+  margin: 0;
+}
+
+.baking {
+  font-family: 'Lato', sans-serif;
+  font-size: 70px;
+  margin: 15px 0;
+  color: #fffffc;
+  transition: all 350ms linear;
+  line-height: 1.4em;
+}
+
+.baking-top-showing, .baking-top-hidden {
+  margin-left: 20px;
+}
+
+.baking-top-showing, .baking-bottom-showing {
+  opacity: 1;
+}
+
+.baking-top-hidden, .baking-bottom-hidden {
+  opacity: 0;
+}
+
+.fresh {
+  font-size: 70px;
+  font-style: italic;
+  transition: all 400ms linear;
+}
+
+.fresh-hidden {
+  opacity: 0;
+  padding-left: 30px;
+  padding-right: 0;
+  color: #fffffc;
+}
+
+.fresh-showing {
+  opacity: 1;
+  padding-left: 0;
+  padding-right: 30px;
+  color: #ffc300;
+}
+
+.bakery-subtext {
+  width: 550px;
+  padding: 5px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.bakery-subtext p {
+  color: #fffffc;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.popular-pastries {
+  text-align: center;
+  color: #fffffc;
+  padding: 25px 0 0;
+  transition: all 300ms linear;
+}
+
+.popular-pastries h3 {
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+}
+
+.bakery-images-container {
+  width: 80%;
+  max-width: 925px;
+  margin: 20px auto 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.bakery-type-container {
+  border-radius: 3px;
+  width: 350px;
+  height: 350px;
+  margin: 20px 12px;
+  background-position: center;
+}
+
+.bakery-type-text {
+  background-color: rgba(0, 8, 20, 0.8);
+  padding: 5px 10px;
+}
+
+.bakery-type-container h3 {
+  color: #ffc300;
+  font-family: 'Lato', sans-serif;
+}
+
+.bakery-details {
+  color: #ffc300;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px;
+  background-color: rgba(0, 8, 20, 0.8);
+  transition: opacity 200ms linear;
+  letter-spacing: 0.08em;
+  font-size: 16px;
+}
+
+.bakery-details-hover {
+  opacity: 1;
+}
+
+.bakery-details-not-hover {
+  opacity: 0;
+}
+
+.croissants-container {
+  background-image: url('../../assets/croissantImage.jpg');
+  transition: all 300ms linear;
+}
+
+.tartlets-container {
+  background-image: url('../../assets/tartletImage.jpg');
+  transition: all 300ms linear;
+}
+
+.muffins-container {
+  background-image: url('../../assets/muffinImage.jpg');
+  transition: all 300ms linear;
+}
+
+.donuts-container {
+  background-image: url('../../assets/donutImage.jpg');
+  transition: all 300ms linear;
+}
+
+.croissants-container-showing, .tartlets-container-showing, .muffins-container-showing, .donuts-container-showing {
+    opacity: 1;
+}
+
+.croissants-container-hidden, .tartlets-container-hidden, .muffins-container-hidden, .donuts-container-hidden {
+    opacity: 0;
+}
+
+.croissants-h3, .tartlets-h3, .muffins-h3, .donuts-h3 {
+  margin-bottom: 30px;
+  transition: all 150ms linear;
+}
+
+.croissants-h3-hover, .tartlets-h3-hover, .muffins-h3-hover, .donuts-h3-hover {
+  margin-bottom: 110px;
+  transition: all 150ms linear;
+}
+
+.croissants-container, .tartlets-container, .muffins-container, .donuts-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.croissants-container-hover, .tartlets-container-hover, .muffins-container-hover, .donuts-container-hover {
+  background-size: 105%;
+}
+
+.croissants-container-not-hover, .tartlets-container-not-hover, .muffins-container-not-hover, .donuts-container-not-hover {
+  background-size: 100%;
+}
+
+.pastry-menu-link-container {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin: 40px auto 50px;
+}
+
+.pastry-menu-button {
+  background-color: rgba(255, 196, 0, 1);
+  width: 180px;
+  margin: 5px auto;
+  padding: 15px 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+
+.pastry-menu-button:hover {
+  background-color: rgba(255, 196, 0, 0.7);
+}
+
+.pastry-menu-link-container a {
+  font-size: 18px;
+  padding: 5px;
+  color: #000814;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .bakery-header {
+    width: 480px;
+  }
+  .baking, .fresh {
+    font-size: 55px;
+  }
+  .fresh-hidden {
+    padding-left: 20px;
+    padding-right: 0;
+  }
+  .fresh-showing {
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  .bakery-subtext {
+    width: 500px;
+  }
+  .bakery-subtext p {
+    font-size: 18px;
+  }
+  .bakery-images-container {
+    width: 96%;
+    max-width: 900px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .bakery-header {
+    width: 350px;
+    margin: 20px auto 10px;
+  }
+  .baking, .fresh {
+    font-size: 40px;
+  }
+  .fresh-hidden {
+    padding-left: 15px;
+    padding-right: 0;
+  }
+  .fresh-showing {
+    padding-left: 0;
+    padding-right: 15px;
+  }
+  .bakery-subtext {
+    width: 480px;
+  }
+  .bakery-subtext p {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .bakery-header {
+      width: 300px;
+      margin: 20px auto 10px;
+    }
+    .baking, .fresh {
+      font-size: 35px;
+    }
+
+    .bakery-subtext {
+      width: 350px;
+    }
+    .bakery-subtext p {
+      font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+  .bakery-subtext {
+    width: 94%;
+  }
+  .bakery-type-container {
+    width: 320px;
+    height: 320px;
+    margin: 10px 5px;
+  }
+  .croissants-h3-hover, .tartlets-h3-hover, .muffins-h3-hover, .donuts-h3-hover {
+    margin-bottom: 90px;
+  }
+  .bakery-details {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,165 @@
+.countries-cards-container {
+  margin: 0px auto;
+  width: 90%;
+  max-width: 1100px;
+  padding: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.countries-header {
+  text-align: center;
+  padding: 5px 5px 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+.countries-header h3 {
+  font-size: 22px;
+  color: #000814;
+  margin: 22px 0 10px;
+}
+
+.country-container {
+  width: 275px;
+  height: 275px;
+  border-radius: 100%;
+  border: 2px solid rgba(0, 8, 20, 0.4);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  opacity: 1;
+  margin: 10px 5px 0;
+  box-shadow: 0px 0px 3px #403d35;
+}
+
+.country-container:hover {
+  opacity: 0.8;
+  border: 2px solid rgba(0, 8, 20, 0.7);
+}
+
+.country-inner {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  border-radius: 100%;
+}
+
+.stripe {
+  width: 60px;
+  height: 100%;
+  transition: all 200ms linear;
+}
+
+.country-text {
+  padding: 20px 10px 20px 15px;
+  transition: all 200ms linear;
+}
+
+.country-text-not-hover {
+  color: rgba(255, 195, 0, 1);
+  text-shadow: 1px 1px 1px rgba(0, 8, 20, 0.7);
+}
+
+.country-text-hover {
+  color: #000814;
+  text-shadow: 0;
+}
+
+.country-map img {
+  transition: all 300ms linear;
+}
+
+.country-map-showing img {
+  opacity: 1;
+  width: 120px;
+  margin: 15px 5px 5px 25px;
+  transition: all 300ms linear;
+}
+
+.country-map-hidden img {
+  opacity: 0;
+  width: 0;
+  margin: 0 5px 0 25px;
+  transition: all 200ms linear;
+}
+
+.country-text-map {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 10px 20px;
+}
+
+.country-text-map h4 {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.spec-line {
+  margin: 15px 0 0;
+}
+
+.country-specs p {
+  margin: 5px 5px 5px 15px;
+}
+
+.country-specs-hidden {
+  display: none;
+  opacity: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.costa-rica, .kenya, .sumatra {
+  background-color: rgba(176, 176, 176, 0);
+}
+
+.costa-rica-hover, .kenya-hover, .sumatra-hover {
+  background: linear-gradient(-45deg, rgba(255, 196, 0, 1), rgba(255, 196, 0, 0.4));
+}
+
+.costa-rica-stripe, .kenya-stripe, .sumatra-stripe {
+  background-color: #ffc300;
+  opacity: 1;
+}
+
+.costa-rica-stripe-hover, .kenya-stripe-hover, .sumatra-stripe-hover {
+  background-color: #000814;
+  opacity: 1;
+}
+
+/* costa rica image attribution https://freevectormaps.com/costa-rica/CR-EPS-01-0001?ref=atr */
+/* kenya image attribution https://freevectormaps.com/kenya/KE-EPS-01-0001?ref=atr */
+/* sumatra image attribution https://freevectormaps.com/indonesia/ID-EPS-01-0001?ref=atr */
+
+.drink-menu-link-container {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin: 30px auto 50px;
+}
+
+.drink-menu-button {
+  background-color: rgba(255, 196, 0, 1);
+  width: 180px;
+  margin: 5px auto;
+  padding: 15px 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+
+.drink-menu-button:hover {
+  background-color: rgba(255, 196, 0, 0.7);
+}
+
+.drink-menu-link-container a {
+  font-size: 18px;
+  padding: 5px;
+  color: #000814;
+  text-decoration: none;
+}

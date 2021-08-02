@@ -1,0 +1,180 @@
+.about-container {
+  width: 100%;
+  background-image: url('../../assets/patternYellow.png');
+  background-size: 90px 90px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-inner {
+  width: 99%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 10px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.about-paragraph-container, .address-hours-container {
+  width: 500px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: #fffffc;
+  box-shadow: 5px 5px 10px rgba(0, 8, 20, 0.4);
+}
+
+.about-paragraph-container h3, .address-hours-container h3 {
+  background-color: #000814;
+  color: #fffffc;
+  margin: 0;
+  padding: 20px 23px;
+  border-radius: 5px 5px 0 0;
+}
+
+.about-paragraph-inner, .address-hours-inner {
+  padding: 15px 20px;
+  color: #000814;
+}
+
+.about-paragraph-inner img {
+  width: 175px;
+  float: right;
+  margin: 20px 5px 10px 20px;
+  border-radius: 2px;
+}
+
+.address-hours-inner img {
+  width: 175px;
+  float: right;
+  margin: 10px 5px 10px 20px;
+  border-radius: 2px;
+}
+
+.address-horizontal-buffer {
+  border-top: 1px solid rgba(0, 8, 20, 0.5);
+  width: 75%;
+  margin: 0 auto;
+  height: 5px;
+}
+
+.parking {
+  margin: 0 auto 10px auto;
+}
+
+.address-contact-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.left-side {
+  margin: 10px 0 0;
+}
+
+.right-side {
+  margin: 0 10px 0 0;
+}
+
+.about-address {
+  width: 180px;
+  margin: 10px auto 0;
+}
+
+.about-address p {
+  margin: 5px 0;
+}
+
+.about-address-inner {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+
+.address {
+  font-size: 18px;
+  text-align: center;
+}
+
+.about-contact {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.about-contact p {
+  margin: 5px 0;
+}
+
+.obfuscate {
+  display: none;
+}
+
+.address-vertical-buffer {
+  height: 80px;
+  width: 5px;
+  border-right: 1px solid rgba(0, 8, 20, 0.5);
+  align-self: center;
+}
+
+.hours-container {
+  text-align: center;
+  min-width: 90px;
+}
+
+.hours-container h4 {
+  margin: 20px 0 10px;
+  text-decoration: underline;
+}
+
+.hours-container p {
+  margin: 5px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-paragraph-container, .address-hours-container {
+    width: 365px;
+    margin: 15px auto;
+  }
+  .about-paragraph-inner, .address-hours-inner {
+    padding: 10px 15px;
+
+  }
+  .about-paragraph-inner img, .address-hours-inner img {
+    width: 150px;
+    margin: 20px 5px 10px 10px;
+  }
+  .about-paragraph-inner p, .address-hours-inner p {
+    font-size: 14px;
+  }
+  .hours-container h4 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about-inner {
+
+    margin: 25px auto;
+  }
+
+  .about-paragraph-container, .address-hours-container {
+    width: 350px;
+    margin: 15px auto;
+  }
+  .about-paragraph-inner img, .address-hours-inner img {
+    width: 125px;
+    margin: 20px 10px 10px 10px;
+  }
+}
+
+
+/* coffee cup background image:<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
+
+/* coffee beans background image: <div>Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
+
+/* coffee pot background image: <div>Icons made by <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
+
+/* muffin background image: <div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
