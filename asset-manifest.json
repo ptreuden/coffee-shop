@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/coffee-shop/static/css/main.ea51aa00.chunk.css",
+    "main.css": "/coffee-shop/static/css/main.1c517328.chunk.css",
     "main.js": "/coffee-shop/static/js/main.c247fcd3.chunk.js",
     "main.js.map": "/coffee-shop/static/js/main.c247fcd3.chunk.js.map",
     "runtime-main.js": "/coffee-shop/static/js/runtime-main.3ca7b960.js",
@@ -10,7 +10,7 @@
     "static/js/3.1b83d93c.chunk.js": "/coffee-shop/static/js/3.1b83d93c.chunk.js",
     "static/js/3.1b83d93c.chunk.js.map": "/coffee-shop/static/js/3.1b83d93c.chunk.js.map",
     "index.html": "/coffee-shop/index.html",
-    "static/css/main.ea51aa00.chunk.css.map": "/coffee-shop/static/css/main.ea51aa00.chunk.css.map",
+    "static/css/main.1c517328.chunk.css.map": "/coffee-shop/static/css/main.1c517328.chunk.css.map",
     "static/js/2.8783b20c.chunk.js.LICENSE.txt": "/coffee-shop/static/js/2.8783b20c.chunk.js.LICENSE.txt",
     "static/media/backIcon.c6752ec2.svg": "/coffee-shop/static/media/backIcon.c6752ec2.svg",
     "static/media/casabaLogo.3f407ae1.png": "/coffee-shop/static/media/casabaLogo.3f407ae1.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.3ca7b960.js",
     "static/js/2.8783b20c.chunk.js",
-    "static/css/main.ea51aa00.chunk.css",
+    "static/css/main.1c517328.chunk.css",
     "static/js/main.c247fcd3.chunk.js"
   ]
 }
