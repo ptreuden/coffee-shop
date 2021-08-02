@@ -61,7 +61,7 @@
 .image-credits {
   color: rgba(255, 195, 0, 1);
   background-color: #000814;
-  width: 100%;
+  width: 98%;
   border-radius: 4px;
   text-align: center;
   padding: 25px 0;
@@ -81,7 +81,7 @@
 @media only screen and (max-width: 400px) {
   .footer-nav-links p {
     font-size: 14px;
-    padding: 5px;
+    padding: 5px 0;
     margin: 5px 8px;
   }
 }
