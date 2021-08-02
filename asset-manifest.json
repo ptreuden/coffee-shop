@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/coffee-shop/static/css/main.ea51aa00.chunk.css",
+    "main.js": "/coffee-shop/static/js/main.c247fcd3.chunk.js",
+    "main.js.map": "/coffee-shop/static/js/main.c247fcd3.chunk.js.map",
+    "runtime-main.js": "/coffee-shop/static/js/runtime-main.3ca7b960.js",
+    "runtime-main.js.map": "/coffee-shop/static/js/runtime-main.3ca7b960.js.map",
+    "static/js/2.8783b20c.chunk.js": "/coffee-shop/static/js/2.8783b20c.chunk.js",
+    "static/js/2.8783b20c.chunk.js.map": "/coffee-shop/static/js/2.8783b20c.chunk.js.map",
+    "static/js/3.1b83d93c.chunk.js": "/coffee-shop/static/js/3.1b83d93c.chunk.js",
+    "static/js/3.1b83d93c.chunk.js.map": "/coffee-shop/static/js/3.1b83d93c.chunk.js.map",
+    "index.html": "/coffee-shop/index.html",
+    "static/css/main.ea51aa00.chunk.css.map": "/coffee-shop/static/css/main.ea51aa00.chunk.css.map",
+    "static/js/2.8783b20c.chunk.js.LICENSE.txt": "/coffee-shop/static/js/2.8783b20c.chunk.js.LICENSE.txt",
+    "static/media/backIcon.c6752ec2.svg": "/coffee-shop/static/media/backIcon.c6752ec2.svg",
+    "static/media/casabaLogo.3f407ae1.png": "/coffee-shop/static/media/casabaLogo.3f407ae1.png",
+    "static/media/cityDay.0347037a.jpg": "/coffee-shop/static/media/cityDay.0347037a.jpg",
+    "static/media/coffeeBeans.cdd11fdd.png": "/coffee-shop/static/media/coffeeBeans.cdd11fdd.png",
+    "static/media/coffeePour.fdfce2d4.jpg": "/coffee-shop/static/media/coffeePour.fdfce2d4.jpg",
+    "static/media/coffeeShopMain.7b9df29e.jpg": "/coffee-shop/static/media/coffeeShopMain.7b9df29e.jpg",
+    "static/media/costaRica.8bc64474.png": "/coffee-shop/static/media/costaRica.8bc64474.png",
+    "static/media/Bakery.css": "/coffee-shop/static/media/tartletImage.e13a2c2b.jpg",
+    "static/media/exitIcon.1cc17520.svg": "/coffee-shop/static/media/exitIcon.1cc17520.svg",
+    "static/media/facebookIcon.e1bda896.svg": "/coffee-shop/static/media/facebookIcon.e1bda896.svg",
+    "static/media/forwardIcon.5af1db06.svg": "/coffee-shop/static/media/forwardIcon.5af1db06.svg",
+    "static/media/instagramIcon.603028a1.svg": "/coffee-shop/static/media/instagramIcon.603028a1.svg",
+    "static/media/kenya.ccd4f375.png": "/coffee-shop/static/media/kenya.ccd4f375.png",
+    "static/media/menu-icon.698124c1.svg": "/coffee-shop/static/media/menu-icon.698124c1.svg",
+    "static/media/Events.css": "/coffee-shop/static/media/musicStage.3e2e27e1.jpg",
+    "static/media/About.css": "/coffee-shop/static/media/patternYellow.111f8d80.png",
+    "static/media/sumatra.85baba4e.png": "/coffee-shop/static/media/sumatra.85baba4e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ca7b960.js",
+    "static/js/2.8783b20c.chunk.js",
+    "static/css/main.ea51aa00.chunk.css",
+    "static/js/main.c247fcd3.chunk.js"
+  ]
+}
