@@ -5,10 +5,10 @@
   overflow: hidden;
   z-index: 2;
   background-color: rgba(0, 8, 20, 0.96);
-  -webkit-animation: menuChange 200ms linear;
-  -moz-animation: menuChange 200ms linear;
-  -o-animation: menuChange 200ms linear;
-  animation: menuChange 200ms linear;
+  -webkit-animation: menuChange 150ms linear;
+  -moz-animation: menuChange 150ms linear;
+  -o-animation: menuChange 150ms linear;
+  animation: menuChange 150ms linear;
 }
 
 .overlay-appear {
@@ -23,12 +23,12 @@
 
 .overlay-main {
   left: 0;
-  transition: all 250ms linear;
+  transition: all 200ms linear;
 }
 
 .overlay-sub {
   left: -100%;
-  transition: all 250ms linear;
+  transition: all 200ms linear;
 }
 
 .icon-container {
