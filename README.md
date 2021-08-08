@@ -2,7 +2,7 @@
 
 A coffee shop example page built with React, utilizing various packages and custom hover styles for effects.
 
-[*view on github pages*]
+[*ptreuden.github.io/coffee-shop/*]
 
 ### Technologies
 ---
@@ -19,7 +19,7 @@ A coffee shop example page built with React, utilizing various packages and cust
 ---
  Images used from [*Unsplash*], [*Iconfinder*], [*Flaticon*], [*Freevectormaps*], and [*Pngegg*]
  
-[*view on github pages*]: <https://ptreuden.github.io/coffee-shop/>
+[*https://ptreuden.github.io/coffee-shop/*]: <https://ptreuden.github.io/coffee-shop/>
 [*react-parallax*]: <https://www.npmjs.com/package/react-parallax/>
 [*react-intersection-observer*]: <https://www.npmjs.com/package/react-intersection-observer/>
 [*react-router-dom*]: <https://www.npmjs.com/package/react-router-dom/>
