@@ -14,7 +14,7 @@ const Header = ({ setOverlay, setMenusEventsName }) => {
     <div className='navbar-container'>
       <div className='navbar-menu'>
         <div className='navbar-logo'>
-          <Link to='/' style={{textDecoration: 'none'}}><img src={coffeeCup} alt='coffee'/></Link>
+          <Link to='/coffee-shop' style={{textDecoration: 'none'}}><img src={coffeeCup} alt='coffee'/></Link>
         </div>
         <div className='navbar-list'>
           <div className='nav-item dropdown'>

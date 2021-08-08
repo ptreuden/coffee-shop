@@ -42,7 +42,7 @@ const App = () => {
               <Route exact path='/events'>
                 <MenusEvents menusEventsName={menusEventsName} />
               </Route>
-              <Route path='/'>
+              <Route exact path='/coffee-shop'>
                 <HomePage setOverlay={setOverlay} setMenusEventsName={setMenusEventsName} />
               </Route>
             </Switch>
