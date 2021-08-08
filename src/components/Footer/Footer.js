@@ -17,9 +17,9 @@ const Footer = ({ setMenusEventsName }) => {
       <div className='footer-buffer'></div>
       <div className='footer-menu'>
         <div className='footer-nav-links'>
-          <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('drinks')}><p>DRINKS</p></Link>
-          <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('food')}><p>BAKERY</p></Link>
-          <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('events')}><p>EVENTS</p></Link>
+          <Link to={'/drinks'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('drinks')}><p>DRINKS</p></Link>
+          <Link to={'/food'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('food')}><p>BAKERY</p></Link>
+          <Link to={'/events'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('events')}><p>EVENTS</p></Link>
           <p onClick={(e)=> scrollToAbout()}>ABOUT</p>
         </div>
         <div className='footer-social-links'>

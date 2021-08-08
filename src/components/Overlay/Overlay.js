@@ -29,7 +29,7 @@ const Overlay = ({ setOverlay, overlay, overlayScroll, hideOverlayShowMenu }) =>
             <img src={forwardIcon} alt='forward' onClick={() => setSubMenu(true)}/>
           </div>
           <div className='menu-item'>
-            <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> hideOverlayShowMenu('events')}><p>EVENTS</p></Link>
+            <Link to={'/events'} style={{textDecoration: 'none'}} onClick={(e)=> hideOverlayShowMenu('events')}><p>EVENTS</p></Link>
           </div>
           <div className='menu-item'>
             <Link to={'/'} style={{textDecoration: 'none'}} onClick={(e) => overlayScroll()}><p>ABOUT</p></Link>
@@ -37,10 +37,10 @@ const Overlay = ({ setOverlay, overlay, overlayScroll, hideOverlayShowMenu }) =>
         </div>
         <div className='overlay-submenu'>
         <div className='menu-item'>
-          <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> hideOverlayShowMenu('drinks')}><p>DRINKS</p></Link>
+          <Link to={'/drinks'} style={{textDecoration: 'none'}} onClick={(e)=> hideOverlayShowMenu('drinks')}><p>DRINKS</p></Link>
         </div>
         <div className='menu-item'>
-          <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> hideOverlayShowMenu('food')}><p>BAKERY</p></Link>
+          <Link to={'/food'} style={{textDecoration: 'none'}} onClick={(e)=> hideOverlayShowMenu('food')}><p>BAKERY</p></Link>
         </div>
         </div>
       </div>

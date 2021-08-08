@@ -20,12 +20,12 @@ const Header = ({ setOverlay, setMenusEventsName }) => {
           <div className='nav-item dropdown'>
             <p id='menu'>MENU</p>
             <div className='dropdown-content'>
-              <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('drinks')}><p className='dropdown-text' id='submenu1'>DRINKS</p></Link>
-              <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('food')}><p className='dropdown-text' id='submenu2'>BAKERY</p></Link>
+              <Link to={'/drinks'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('drinks')}><p className='dropdown-text' id='submenu1'>DRINKS</p></Link>
+              <Link to={'/food'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('food')}><p className='dropdown-text' id='submenu2'>BAKERY</p></Link>
             </div>
           </div>
           <div className='nav-item'>
-            <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('events')}><p id='events'>EVENTS</p></Link>
+            <Link to={'/events'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('events')}><p id='events'>EVENTS</p></Link>
           </div>
           <div className='nav-item'>
             <p id='about' onClick={(e)=> scrollToAbout()}>ABOUT</p>

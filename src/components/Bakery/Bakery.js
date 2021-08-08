@@ -133,7 +133,7 @@ const Bakery = ({ setMenusEventsName }) => {
       </div>
       <div className='pastry-menu-link-container'>
         <div className='pastry-menu-button'>
-          <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('food')}><p>BAKERY MENU</p></Link>
+          <Link to={'/food'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('food')}><p>BAKERY MENU</p></Link>
         </div>
       </div>
     </div>

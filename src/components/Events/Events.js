@@ -16,7 +16,7 @@ const Events = ({ setMenusEventsName }) => {
             <div className='events-button-container'>
               <div className='events-link-container'>
                 <div className='events-link-button'>
-                  <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('events')}><p>CALENDAR</p></Link>
+                  <Link to={'/events'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('events')}><p>CALENDAR</p></Link>
                 </div>
               </div>
             </div>

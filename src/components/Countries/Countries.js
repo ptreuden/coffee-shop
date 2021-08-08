@@ -135,7 +135,7 @@ const Countries = ({ changeOverlay, setMenusEventsName }) => {
       </div>
       <div className='drink-menu-link-container'>
         <div className='drink-menu-button'>
-          <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('drinks')}><p>DRINK MENU</p></Link>
+          <Link to={'/drinks'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('drinks')}><p>DRINK MENU</p></Link>
         </div>
       </div>
     </div>

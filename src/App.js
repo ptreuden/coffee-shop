@@ -33,7 +33,13 @@ const App = () => {
           :
           <div>
             <Switch>
-              <Route exact path='/menusEvents'>
+              <Route exact path='/drinks'>
+                <MenusEvents menusEventsName={menusEventsName} />
+              </Route>
+              <Route exact path='/food'>
+                <MenusEvents menusEventsName={menusEventsName} />
+              </Route>
+              <Route exact path='/events'>
                 <MenusEvents menusEventsName={menusEventsName} />
               </Route>
               <Route path='/'>
