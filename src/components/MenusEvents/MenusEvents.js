@@ -27,7 +27,7 @@ const MenusEvents = ({ menusEventsName }) => {
     <div className='menusEvents-container'>
       <div className='menusEvents-inner'>
           <div className='close'>
-            <Link to={'/coffee-shop'} onClick={(e)=> history.goBack()}><p>CLOSE</p></Link>
+            <Link to={'/coffee-shop'} onClick={(e)=> history.push('/coffee-shop')}><p>CLOSE</p></Link>
           </div>
           <div className='image-container'>
           {
