@@ -1,6 +1,7 @@
 import './Events.css';
+import { Link } from 'react-router-dom';
 
-const Events = () => {
+const Events = ({ setMenusEventsName }) => {
   return(
     <div className='events-container'>
           <div className='events-text-container'>
@@ -15,7 +16,7 @@ const Events = () => {
             <div className='events-button-container'>
               <div className='events-link-container'>
                 <div className='events-link-button'>
-                  <a href='#1'>CALENDAR</a>
+                  <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('events')}><p>CALENDAR</p></Link>
                 </div>
               </div>
             </div>

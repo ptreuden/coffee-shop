@@ -200,11 +200,12 @@
   background-color: rgba(255, 196, 0, 0.7);
 }
 
-.pastry-menu-link-container a {
+.pastry-menu-link-container P {
   font-size: 18px;
-  padding: 5px;
+  padding: 5px 0;
   color: #000814;
   text-decoration: none;
+  margin: 0;
 }
 
 

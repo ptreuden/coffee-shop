@@ -100,7 +100,7 @@ img.exit, img.back {
   color: rgba(255, 195, 0, 1);
   letter-spacing: 0.1em;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 400;
   cursor: pointer;
 }
 

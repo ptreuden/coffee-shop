@@ -86,11 +86,12 @@
   background-color: rgba(255, 196, 0, 0.7);
 }
 
-.events-link-container a {
+.events-link-container p {
   font-size: 18px;
   padding: 5px;
   color: #000814;
   text-decoration: none;
+  margin: 0;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -146,6 +147,10 @@
 
 @media only screen and (max-width: 600px) {
   .events-container {
+    height: 500px;
+    background-attachment: fixed;
     background-position: 30% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

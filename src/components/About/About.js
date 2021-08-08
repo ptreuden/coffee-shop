@@ -4,7 +4,7 @@ import cityImage from '../../assets/cityDay.jpg';
 
 const About = () => {
   return(
-    <div className='about-container'>
+    <div className='about-container' id='about-section'>
       <div className='about-inner'>
         <div className='about-paragraph-container'>
             <h3>ABOUT CASABA</h3>
@@ -40,8 +40,8 @@ const About = () => {
                 <div className='right-side'>
                   <div className='hours-container'>
                     <h4>Hours</h4>
-                    <p>Mon-Fri: 6 - 6</p>
-                    <p>Sat: 8 - 10</p>
+                    <p>Mon-Fri: 7 - 7</p>
+                    <p>Sat: 7 - 9</p>
                     <p>Sun: 8 - 4</p>
                   </div>
                 </div>

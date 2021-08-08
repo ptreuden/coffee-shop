@@ -2,8 +2,14 @@ import './Footer.css';
 import Email from '../Email/Email';
 import facebookIcon from '../../assets/facebookIcon.svg';
 import instagramIcon from '../../assets/instagramIcon.svg';
+import { Link } from 'react-router-dom';
 
-const Footer = () => {
+const Footer = ({ setMenusEventsName }) => {
+
+  const scrollToAbout = () => {
+    var aboutSection = document.getElementById('about-section');
+    aboutSection.scrollIntoView();
+  }
 
   return(
     <div className='footer-container'>
@@ -11,10 +17,10 @@ const Footer = () => {
       <div className='footer-buffer'></div>
       <div className='footer-menu'>
         <div className='footer-nav-links'>
-          <p>DRINKS</p>
-          <p>BAKERY</p>
-          <p>EVENTS</p>
-          <p>ABOUT</p>
+          <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('drinks')}><p>DRINKS</p></Link>
+          <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('food')}><p>BAKERY</p></Link>
+          <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('events')}><p>EVENTS</p></Link>
+          <p onClick={(e)=> scrollToAbout()}>ABOUT</p>
         </div>
         <div className='footer-social-links'>
           <img src={facebookIcon} alt='facebook icon' />

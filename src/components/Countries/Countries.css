@@ -157,9 +157,10 @@
   background-color: rgba(255, 196, 0, 0.7);
 }
 
-.drink-menu-link-container a {
+.drink-menu-link-container p {
   font-size: 18px;
-  padding: 5px;
+  padding: 5px 0;
   color: #000814;
   text-decoration: none;
+  margin: 0;
 }

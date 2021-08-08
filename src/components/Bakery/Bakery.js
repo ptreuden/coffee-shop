@@ -1,8 +1,9 @@
 import './Bakery.css';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
 
-const Bakery = () => {
+const Bakery = ({ setMenusEventsName }) => {
 
   const [ croissantsHover, setCroissantsHover ] = useState(false);
   const [ tartletsHover, setTartletsHover ] = useState(false);
@@ -50,7 +51,6 @@ const Bakery = () => {
     rootMargin: '-50px',
     threshold: 0.3
   });
-
 
 
   return(
@@ -133,7 +133,7 @@ const Bakery = () => {
       </div>
       <div className='pastry-menu-link-container'>
         <div className='pastry-menu-button'>
-          <a href='#1'>PASTRY MENU</a>
+          <Link to={'/menusEvents'} style={{textDecoration: 'none'}} onClick={(e)=> setMenusEventsName('food')}><p>BAKERY MENU</p></Link>
         </div>
       </div>
     </div>
