@@ -26,9 +26,15 @@ const MenusEvents = ({ menusEventsName }) => {
   return(
     <div className='menusEvents-container'>
       <div className='menusEvents-inner'>
-          <div className='close'>
-            <Link to={'/coffee-shop'} onClick={(e)=> history.push('/coffee-shop')}><p>CLOSE</p></Link>
-          </div>
+      
+          {
+            // history.go, history.goback not working with safari currently
+
+            // <div className='close'>
+            //   <Link to={'/coffee-shop'} onClick={(e)=> history.go(-1)}><p>CLOSE</p></Link>
+            // </div>
+          }
+
           <div className='image-container'>
           {
             menusEventsName === 'drinks' ?
