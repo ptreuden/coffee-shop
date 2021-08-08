@@ -19,7 +19,7 @@ A coffee shop example page built with React, utilizing various packages and cust
 ---
  Images used from [*Unsplash*], [*Iconfinder*], [*Flaticon*], [*Freevectormaps*], and [*Pngegg*]
  
-[*https://ptreuden.github.io/coffee-shop/*]: <https://ptreuden.github.io/coffee-shop/>
+[*ptreuden.github.io/coffee-shop/*]: <https://ptreuden.github.io/coffee-shop/>
 [*react-parallax*]: <https://www.npmjs.com/package/react-parallax/>
 [*react-intersection-observer*]: <https://www.npmjs.com/package/react-intersection-observer/>
 [*react-router-dom*]: <https://www.npmjs.com/package/react-router-dom/>
