@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coffee-shop/static/css/main.42ec7198.chunk.css",
-    "main.js": "/coffee-shop/static/js/main.e6ed4bb8.chunk.js",
-    "main.js.map": "/coffee-shop/static/js/main.e6ed4bb8.chunk.js.map",
+    "main.js": "/coffee-shop/static/js/main.876dce25.chunk.js",
+    "main.js.map": "/coffee-shop/static/js/main.876dce25.chunk.js.map",
     "runtime-main.js": "/coffee-shop/static/js/runtime-main.32d50d4a.js",
     "runtime-main.js.map": "/coffee-shop/static/js/runtime-main.32d50d4a.js.map",
     "static/js/2.32d1501b.chunk.js": "/coffee-shop/static/js/2.32d1501b.chunk.js",
@@ -20,11 +20,11 @@
     "static/media/coffeeShopMain.7b9df29e.jpg": "/coffee-shop/static/media/coffeeShopMain.7b9df29e.jpg",
     "static/media/costaRica.8bc64474.png": "/coffee-shop/static/media/costaRica.8bc64474.png",
     "static/media/Bakery.css": "/coffee-shop/static/media/tartletImage.e13a2c2b.jpg",
-    "static/media/drinkMenuTall.c62fa5c4.png": "/coffee-shop/static/media/drinkMenuTall.c62fa5c4.png",
-    "static/media/eventsPage.ffa63781.jpg": "/coffee-shop/static/media/eventsPage.ffa63781.jpg",
+    "static/media/drinkMenuTall.a8def747.jpg": "/coffee-shop/static/media/drinkMenuTall.a8def747.jpg",
+    "static/media/eventsPage.f671dd22.jpg": "/coffee-shop/static/media/eventsPage.f671dd22.jpg",
     "static/media/exitIcon.1cc17520.svg": "/coffee-shop/static/media/exitIcon.1cc17520.svg",
     "static/media/facebookIcon.e1bda896.svg": "/coffee-shop/static/media/facebookIcon.e1bda896.svg",
-    "static/media/foodMenuTall.0418f2d5.png": "/coffee-shop/static/media/foodMenuTall.0418f2d5.png",
+    "static/media/foodMenuTall.8e8874dd.jpg": "/coffee-shop/static/media/foodMenuTall.8e8874dd.jpg",
     "static/media/forwardIcon.5af1db06.svg": "/coffee-shop/static/media/forwardIcon.5af1db06.svg",
     "static/media/instagramIcon.603028a1.svg": "/coffee-shop/static/media/instagramIcon.603028a1.svg",
     "static/media/kenya.ccd4f375.png": "/coffee-shop/static/media/kenya.ccd4f375.png",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.32d50d4a.js",
     "static/js/2.32d1501b.chunk.js",
     "static/css/main.42ec7198.chunk.css",
-    "static/js/main.e6ed4bb8.chunk.js"
+    "static/js/main.876dce25.chunk.js"
   ]
 }
