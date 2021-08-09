@@ -1,6 +1,6 @@
 import './MenusEvents.css';
-import drinkMenu from '../../assets/drinkMenuTall.png';
-import foodMenu from '../../assets/foodMenuTall.png';
+import drinkMenu from '../../assets/drinkMenuTall.jpg';
+import foodMenu from '../../assets/foodMenuTall.jpg';
 import eventsPage from '../../assets/eventsPage.jpg';
 import { Link, useHistory } from 'react-router-dom';
 import { useEffect } from 'react';
@@ -26,7 +26,7 @@ const MenusEvents = ({ menusEventsName }) => {
   return(
     <div className='menusEvents-container'>
       <div className='menusEvents-inner'>
-      
+
           {
             // history.go, history.goback not working with safari currently
 

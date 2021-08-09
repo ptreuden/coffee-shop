@@ -32,7 +32,7 @@ const Overlay = ({ setOverlay, overlay, overlayScroll, hideOverlayShowMenu }) =>
             <Link to={'/events'} style={{textDecoration: 'none'}} onClick={(e)=> hideOverlayShowMenu('events')}><p>EVENTS</p></Link>
           </div>
           <div className='menu-item'>
-            <Link to={'/'} style={{textDecoration: 'none'}} onClick={(e) => overlayScroll()}><p>ABOUT</p></Link>
+            <Link to={'/coffee-shop'} style={{textDecoration: 'none'}} onClick={(e) => overlayScroll()}><p>ABOUT</p></Link>
           </div>
         </div>
         <div className='overlay-submenu'>

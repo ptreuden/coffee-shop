@@ -16,7 +16,7 @@ const App = () => {
     setTimeout( () => {
       const about = document.getElementById('about-section');
       about.scrollIntoView();
-    }, 250)
+    }, 200)
   }
 
   const hideOverlayShowMenu = (name) => {
